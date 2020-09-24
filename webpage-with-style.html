@@ -23,11 +23,19 @@
 		#first-section {
 			color: blue;
 			background-color: pink;
-			width: 50%;
+			width: 200px;
+			float: right;
+
 
 		}
 		#second-section {
 			background-color: yellow;
+			width: 200px; 
+			float: left;
+		}
+
+		.clear-float {
+			clear: both;
 		}
 	</style>
 </head>
@@ -41,6 +49,9 @@
 		<p>This is some more text. <span class="underlined">And this text is underlined</span></p>
 		<h1>CSS is cool</h1>
 	</div>
+
+	<div class="clear-float"></div>
+	<p>This paragraph is not floated!</p>
 
 </body>
 </html>
