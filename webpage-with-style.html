@@ -24,19 +24,20 @@
 			color: blue;
 			background-color: pink;
 			width: 200px;
-			float: right;
-
+			position: relative;
+			left: 100px;
+			top: 100px;
+ 
 
 		}
 		#second-section {
 			background-color: yellow;
 			width: 200px; 
-			float: left;
+			position: relative;
+			left: 100px;
+			top: -100px;
 		}
 
-		.clear-float {
-			clear: both;
-		}
 	</style>
 </head>
 <body>
@@ -50,7 +51,6 @@
 		<h1>CSS is cool</h1>
 	</div>
 
-	<div class="clear-float"></div>
 	<p>This paragraph is not floated!</p>
 
 </body>
